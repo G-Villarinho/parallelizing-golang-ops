@@ -10,7 +10,7 @@ import (
 	"go.mongodb.org/mongo-driver/mongo"
 )
 
-const amount = 10000000
+const amount = 1000000
 
 func SeedMongoDB(collection *mongo.Collection) {
 	ctx := context.Background()
