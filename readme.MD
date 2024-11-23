@@ -7,7 +7,7 @@ This application is designed to transfer data from a **MongoDB** collection to a
 ## **Features**
 - High-performance data transfer from **MongoDB** to **Postgres**.
 - Optimized for large datasets with support for batching and parallel processing.
-- Automatically creates the target table in ClickHouse if it doesn’t exist.
+- Automatically creates the target table in Postgres if it doesn’t exist.
 - Fully containerized setup using **Docker Compose**.
 
 ---
